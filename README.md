@@ -1,6 +1,6 @@
-# Al-Hanif: Latihan Studi Kasus Python
+# Project Awal Kuliah Semester 1
 
-Kumpulan studi kasus pemrograman dengan solusi Python dan unit test untuk soal nomor 1 sampai 5.
+Kumpulan studi kasus pemrograman dari awal kuliah semester 1, dengan solusi Python dan unit test untuk soal nomor 1 sampai 5.
 
 ## Struktur
 
