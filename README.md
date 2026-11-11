@@ -1,6 +1,38 @@
-# 🔰 Studi Kasus Level Mudah
+# Al-Hanif: Latihan Studi Kasus Python
 
-## 1. Kasir Sederhana – Hitung Total Belanja
+Kumpulan studi kasus pemrograman dengan solusi Python dan unit test untuk soal nomor 1 sampai 5.
+
+## Struktur
+
+| No | Studi kasus | Solusi |
+|----|-------------|--------|
+| 1 | Kasir sederhana | [studi_kasus/kasir.py](studi_kasus/kasir.py) |
+| 2 | Cek password | [studi_kasus/password.py](studi_kasus/password.py) |
+| 3 | Konversi suhu | [studi_kasus/suhu.py](studi_kasus/suhu.py) |
+| 4 | Manajemen nilai siswa | [studi_kasus/nilai_siswa.py](studi_kasus/nilai_siswa.py) |
+| 5 | Validasi data pengguna | [studi_kasus/validasi_user.py](studi_kasus/validasi_user.py) |
+
+Test ada di folder [tests/](tests/).
+
+## Cara menjalankan
+
+Butuh Python 3.8 atau lebih baru, tanpa library tambahan.
+
+```bash
+# Jalankan contoh salah satu studi kasus
+python -m studi_kasus.kasir
+
+# Jalankan semua test
+python -m unittest discover -v
+```
+
+---
+
+## Soal
+
+### 🔰 Level Mudah
+
+#### 1. Kasir Sederhana – Hitung Total Belanja
 Buat fungsi yang menerima:
 - daftar harga barang (array/list angka)
 - diskon dalam persen (0–100)
@@ -18,7 +50,7 @@ output = 15750
 
 ---
 
-## 2. Cek Password
+#### 2. Cek Password
 Buat fungsi yang menerima sebuah string (password) dan mengembalikan:
 - "lemah" jika panjang < 6
 - "sedang" jika 6–10 karakter
@@ -26,7 +58,7 @@ Buat fungsi yang menerima sebuah string (password) dan mengembalikan:
 
 ---
 
-## 3. Konversi Suhu
+#### 3. Konversi Suhu
 Buat fungsi yang mengonversi:
 - Celcius → Fahrenheit
 - Fahrenheit → Celcius
@@ -37,9 +69,9 @@ Gunakan parameter mode:
 
 ---
 
-# 🟡 Studi Kasus Level Menengah
+### 🟡 Level Menengah
 
-## 4. Manajemen Nilai Siswa
+#### 4. Manajemen Nilai Siswa
 Buat fungsi yang menerima list nilai siswa (0–100) lalu mengembalikan:
 - nilai rata-rata
 - nilai tertinggi
@@ -55,7 +87,7 @@ Output boleh berupa dictionary/objek.
 
 ---
 
-## 5. Validasi Data Pengguna
+#### 5. Validasi Data Pengguna
 Buat fungsi `validasi_user(nama, umur, email)`.
 
 Validasi:
@@ -67,7 +99,7 @@ Kembalikan `"valid"` atau `"tidak valid"` beserta alasannya.
 
 ---
 
-## 6. Hitung Gaji Karyawan
+#### 6. Hitung Gaji Karyawan
 Buat fungsi yang menerima:
 - gaji_pokok
 - jam_lembur
@@ -80,9 +112,9 @@ Fungsi mengembalikan total gaji.
 
 ---
 
-# 🔴 Studi Kasus Level Lanjutan
+### 🔴 Level Lanjutan
 
-## 7. Sistem Booking Hotel
+#### 7. Sistem Booking Hotel
 Buat fungsi yang menerima:
 - tipe kamar (`standard`, `deluxe`, `suite`)
 - jumlah malam
@@ -102,7 +134,7 @@ Fungsi harus menghitung total biaya setelah diskon.
 
 ---
 
-## 8. Aplikasi To-Do List Sederhana
+#### 8. Aplikasi To-Do List Sederhana
 Buat minimal 3 fungsi:
 - `tambah_tugas(list, tugas)`
 - `hapus_tugas(list, tugas)`
@@ -115,7 +147,7 @@ Simulasikan alur:
 
 ---
 
-## 9. Analisis Data Penjualan Online
+#### 9. Analisis Data Penjualan Online
 Buat fungsi `analisis_penjualan(data)`.
 
 Format data:
